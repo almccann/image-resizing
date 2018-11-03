@@ -1,0 +1,23 @@
+{
+  "name": "image-resizing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test": "NODE_ENV=test jest"
+  },
+  "author": "Alastair McCann",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "sharp": "^0.21.0"
+  }
+}
